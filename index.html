@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Merry Zebro's Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="toggle-animation.js"></script>
+
+</head>
+<body>
+  <header onclick="toggleAnimation()">
+   <div> <h1 >Merry Zebro</h1></div>
+  </header>
+   
+  <nav>
+    
+    <ul>
+      <li><a href="#" onclick="scrollToElement('about')">About</a></li>
+      <li><a href="#" onclick="scrollToElement('skills')">Skills</a></li>
+      <li><a href="#" onclick="scrollToElement('experience')">Experience</a></li>
+      <li><a href="#" onclick="scrollToElement('education')">Education</a></li>
+      <li><a href="#" onclick="scrollToElement('projects')">Projects</a></li>
+      <li><a href="#" onclick="scrollToElement('contacts')">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Hello, my name is Merry Zebro. I am an undergraduate student at Cornell
+        University <br>studying Computer Science in the Arts and Sciences. 
+        <br><br> 
+        I have taken a range of courses in Computer Science, including Into to Computing, <br> Object-Oriented Programming and Data Structures, C++ Programming, and will be<br> taking Data Structures and Functional Programing.
+         <br><br> 
+         I have also gained experience in web design through the course Introductory Design<br> and
+         Programming for the Web and through my role at a real-state start up. I will also<br> be taking Intermediate Design and Programming for the Web.
+        <br><br>
+        
+        </p>
+        <ul class="items bouncing-images">
+            <li class="halo"><a href="https://www.linkedin.com/in/merryzebro/" target="_blank"><img class="bouncing-image" src="images/linked.png" width="50"></a></li>
+            <li class="halo"><a href="https://github.com/merryz1" target="_blank"><img class="bouncing-image" src="images/git.png" width="50"></a></li>
+        </ul>
+    </section>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+      <div class="skill">
+        <img src="images/python.png" alt="Python icon">
+        <p>Python</p>
+      </div>
+      <div class="skill">
+        <img src="images/java.png" alt="Java icon">
+        <p>Java</p>
+      </div>
+      <div class="skill">
+        <img src="images/c++.png" alt="C++ icon">
+        <p>C++</p>
+      </div>
+      <div class="skill">
+        <img src="images/html.png" alt="HTML icon">
+        <p>HTML</p>
+      </div>
+      <div class="skill">
+        <img src="images/css.png" alt="CSS icon">
+        <p>CSS</p>
+      </div>
+      <div class="skill">
+        <img src="images/js.png" alt="JS icon">
+        <p>JS</p>
+      </div>
+    </div>
+</div>
+    
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <h3>Cornell CIS</h3>
+      <p>TA for Python Course</p>
+      <h3>Raytheon Technologies</h3>
+      <p>Data Analyst intern</p>
+      <h3>Iridium Satellite Communications </h3>
+      <p>MATLAB intern</p>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <h3>Bachelor's Degree 2025</h3>
+      <p>Major in Computer Science and Minor in Real-Estate</p>
+      
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Coming Soon....</p>
+      <ul>
+        <li>JS Project(calculator)</li>
+        <li>Java Project(api weather app)</li>
+        <li>Python Project(secrete santa)</li>
+        <li>Face recognition(Python)</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>merryzebro@gmail.com</p>
+      <p>Linkldin</p>
+      <p>github</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2022 Merry Zebro</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
