@@ -75,16 +75,25 @@
     </section>
     <section id="experience">
       <h2>Experience</h2>
-      <h3>Cornell CIS</h3>
-      <p>TA for Python Course</p>
-      <h3>Raytheon Technologies</h3>
-      <p>Data Analyst intern</p>
-      <h3>Iridium Satellite Communications </h3>
-      <p>MATLAB intern</p>
+      <div class="exp"><h3><img src="images/microsoft.png" width="40"> Microsoft</h3>
+      <p>SWE Intern Summer 2023</p></div>
+
+      <div class="exp"><h3><img src="images/cornell.png" width="40"> Cornell CIS</h3>
+        <p>TA for Python Course Fall 2022</p></div>
+
+
+        <div class="exp"><h3><img src="images/raytheon.png" width="40"> Raytheon Technologies</h3>
+         <p>Data Analyst intern Summer 2022</p></div>
+
+        
+        <div class="exp"><h3><img src="images/iridum.png" width="40"> Iridium Satellite Communications
+        </h3>
+            <p>MATLAB intern Summer 2021</p></div>
+      
     </section>
     <section id="education">
       <h2>Education</h2>
-      <h3>Bachelor's Degree 2025</h3>
+      <h3><img src="images/cornell.png" width="40"> Cornell University Bachelor's Degree 2025</h3>
       <p>Major in Computer Science and Minor in Real-Estate</p>
       
     </section>
@@ -92,18 +101,39 @@
       <h2>Projects</h2>
       <p>Coming Soon....</p>
       <ul>
-        <li>JS Project(calculator)</li>
+        <li>JS Project, but also used, html, css, js for website styling(secrete Santa)</li>
         <li>Java Project(api weather app)</li>
         <li>Python Project(secrete santa)</li>
         <li>Face recognition(Python)</li>
       </ul>
     </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>merryzebro@gmail.com</p>
-      <p>Linkldin</p>
-      <p>github</p>
+    
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form action="/send-email.php" method="post">
+        <div class="form-row">
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name" placeholder="name">
+        </div>
+        <div class="form-row">
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" placeholder="email">
+        </div>
+        <div class="form-row">
+          <label for="msg">Message: </label>
+          <textarea name="message" id="msg" cols="30" rows="10" placeholder="Type here :)"></textarea>
+        </div>
+        <div class="form-row submit">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+
+
+      
     </section>
+    
+    
+    
   </main>
   <footer>
     <p>Copyright 2022 Merry Zebro</p>

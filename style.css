@@ -1,5 +1,12 @@
+
+*{
+  color:rgb(225, 239, 251);
+
+}
+
 html{
-    overflow-x: hidden;    
+    overflow-x: hidden; 
+   
 }
 
 h1{
@@ -169,6 +176,27 @@ li{
   .skill p {
     margin: 0;
     font-size: 1.2em;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  
+  label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  textarea {
+    flex: 1;
+  }
+  
+  .submit{
+    margin-left: 100%;
   }
   
 
