@@ -5,30 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Merry Zebro's Personal Website</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <script src="toggle-animation.js"></script>
 
 </head>
 <body>
-  <header onclick="toggleAnimation()">
-   <div> <h1 >Merry Zebro</h1></div>
-  </header>
+  
    
   <nav>
     
     <ul>
       <li><a href="#" onclick="scrollToElement('about')">About</a></li>
       <li><a href="#" onclick="scrollToElement('skills')">Skills</a></li>
-      <li><a href="#" onclick="scrollToElement('experience')">Experience</a></li>
       <li><a href="#" onclick="scrollToElement('education')">Education</a></li>
+      <li><a href="#" onclick="scrollToElement('experience')">Experience</a></li>
       <li><a href="#" onclick="scrollToElement('projects')">Projects</a></li>
-      <li><a href="#" onclick="scrollToElement('contacts')">Contact</a></li>
+      <li><a href="#" onclick="scrollToElement('contact')">Contact</a></li>
     </ul>
   </nav>
   <main>
+
+    <section id="home">
+
+      
+      <div class="toggle-container">
+
+    <input type="checkbox" id="toggle-animation">
+    <label for="toggle-animation" onclick="toggleAnimation()" ></label>
+    
+    </div>
+
+    <ul class="it">
+      <li class="halo"><a href="https://www.linkedin.com/in/merryzebro/" ><img class="bouncing-image" src="images/linked.png" width="50"></a></li>
+      <li class="halo"><a href="https://github.com/merryz1" ><img class="bouncing-image" src="images/git.png" width="50"></a></li>
+  </ul>
+      <img onclick="toggleAnimation()"class="computer" src="images/computer.png" width=150 alt="Computer"></div>
+  
+    
+      <h1 onclick="toggleAnimation()">Welcome, I am<br><em>..</em>Merry Zebro</h1>
+      </div>
+      <!-- Add a down arrow below each section -->
+      <div class="down-arrow" onclick="scrollToAbout()">
+        <img class="bouncy" class="bouncy" src = images/down_arrow.png alt="arrow down" height="90" width="100">
+      </div>
+
+    </section>
+
     <section id="about">
+      <img src="images/computer.png" width="50" class="comp">
       <h2>About</h2>
       <p>Hello, my name is Merry Zebro. I am an undergraduate student at Cornell
-        University <br>studying Computer Science in the Arts and Sciences. 
+        University <br>studying Computer Science in the College of Arts and Sciences. 
         <br><br> 
         I have taken a range of courses in Computer Science, including Into to Computing, <br> Object-Oriented Programming and Data Structures, C++ Programming, and will be<br> taking Data Structures and Functional Programing.
          <br><br> 
@@ -37,14 +64,22 @@
         <br><br>
         
         </p>
-        <ul class="items bouncing-images">
+        <ul class="items">
             <li class="halo"><a href="https://www.linkedin.com/in/merryzebro/" target="_blank"><img class="bouncing-image" src="images/linked.png" width="50"></a></li>
             <li class="halo"><a href="https://github.com/merryz1" target="_blank"><img class="bouncing-image" src="images/git.png" width="50"></a></li>
         </ul>
+
+              <!-- Add a down arrow below each section -->
+      <div class="down-arrow" onclick="scrollToSkills()">
+        <img class="bouncy" src = images/down_arrow.png alt="arrow down" height="90" width="100">
+        </div>
+
     </section>
-    <section id="skills" class="skills">
+    <section class="side-by-side" id="skills" class="skills">
       <h2>Skills</h2>
       <div class="skills-grid">
+        <img src="images/computer.png" width="50" class="comp">
+
       <div class="skill">
         <img src="images/python.png" alt="Python icon">
         <p>Python</p>
@@ -72,9 +107,27 @@
     </div>
 </div>
     
+      <!-- Add a down arrow below each section -->
+      <div class="down-arrow" onclick="scrollToExperience()">
+        <img  src = "images/background-50.png" alt="arrow down" height="90" width="100">
+        </div>
+
     </section>
-    <section id="experience">
+    
+    <section class="side-by-side" id="education">
+      <h2>Education</h2>
+      <h3><img src="images/cornell.png" width="90"> Cornell University Bachelor's Degree 2025</h3>
+      <p>Major in Computer Science and Minor in Real-Estate</p>
+            <!-- Add a down arrow below each section -->
+            <div class="down-arrow" onclick="scrollToExperience()">
+              <img class="bouncy" src = images/down_arrow.png alt="arrow down" height="90" width="100">
+            </div>
+    </section>
+
+
+    <section  id="experience">
       <h2>Experience</h2>
+      
       <div class="exp"><h3><img src="images/microsoft.png" width="40"> Microsoft</h3>
       <p>SWE Intern Summer 2023</p></div>
 
@@ -89,42 +142,49 @@
         <div class="exp"><h3><img src="images/iridum.png" width="40"> Iridium Satellite Communications
         </h3>
             <p>MATLAB intern Summer 2021</p></div>
-      
+            <!-- Add a down arrow below each section -->
+      <div class="down-arrow" onclick="scrollToProjects()">
+        <img class="bouncy" src = images/down_arrow.png alt="arrow down" height="90" width="100">
+      </div>
     </section>
-    <section id="education">
-      <h2>Education</h2>
-      <h3><img src="images/cornell.png" width="40"> Cornell University Bachelor's Degree 2025</h3>
-      <p>Major in Computer Science and Minor in Real-Estate</p>
-      
-    </section>
+
+    
     <section id="projects">
       <h2>Projects</h2>
-      <p>Coming Soon....</p>
+      <img src="images/computer.png" width="50" class="comp">
+
+      <p>Coming Soon....(;</p>
       <ul>
-        <li>JS Project, but also used, html, css, js for website styling(secrete Santa)</li>
+        <li>JS Project</li>
         <li>Java Project(api weather app)</li>
-        <li>Python Project(secrete santa)</li>
+        <li>Python Project</li>
         <li>Face recognition(Python)</li>
       </ul>
+      <!-- Add a down arrow below each section -->
+      <div class="down-arrow" onclick="scrollToContact()">
+        <img class="bouncy" src = images/down_arrow.png alt="arrow down" height="90" width="100">
+        </div>      
     </section>
     
-    <section class="contact">
+    <section id="contact" class="contact">
       <h2>Contact Me</h2>
-      <form action="/send-email.php" method="post">
-        <div class="form-row">
+      
+      <form action="https://formspree.io/f/xgebeeop" method="POST">        <div class="form-row">
           <label for="name">Name: </label>
           <input type="text" id="name" name="name" placeholder="name">
         </div>
         <div class="form-row">
           <label for="email">Email: </label>
-          <input type="email" id="email" name="email" placeholder="email">
+          <input type="email" id="email" name="email" placeholder="email" required>
         </div>
         <div class="form-row">
           <label for="msg">Message: </label>
           <textarea name="message" id="msg" cols="30" rows="10" placeholder="Type here :)"></textarea>
         </div>
+        <img src="images/computer.png" width="50" class="comp">
+
         <div class="form-row submit">
-          <input type="submit" value="Submit">
+          <button style="color:black;" type="submit" data-netlify-recaptcha>Send</button>
         </div>
       </form>
 
@@ -138,6 +198,8 @@
   <footer>
     <p>Copyright 2022 Merry Zebro</p>
   </footer>
+  <script src="https://formspree.io/v1/formspree.js"></script>
+
   <script src="script.js"></script>
 </body>
 </html>
