@@ -23,8 +23,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Comic Neue', sans-serif;
-    background: url('images/background-dark.jpg') no-repeat center center fixed ;
-    background-size: cover;
+    
   
     
   }
@@ -70,8 +69,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('images/background-dark.jpg') no-repeat center center fixed ;
-    background-size: cover;
+    
     
 
     
@@ -80,10 +78,7 @@ li{
   
 
 
-  section#education{
-    background-color:rgb(3, 10, 41);
-
-  }
+  
   input[type="text"] {
     color: black;
   }
@@ -143,31 +138,22 @@ li{
   section#home{
     border:none;
     height: 100vh;
-    background:  url('images/background-50.jpg') no-repeat center center fixed ;
+    background:  url('images/background-50.png') no-repeat center center fixed ;
     background-size: cover;
   
   }
 
   section#projects{
-    background: url('images/background-50.jpg') no-repeat center center fixed ;
+    background: url('images/background-50.png') no-repeat center center fixed ;
     background-size: cover;
   }
   section#skills{
-    background: url('images/background-50.jpg') no-repeat center center fixed ;
+    background: url('images/background-50.png') no-repeat center center fixed ;
     background-size: cover;
   }
 
-  section#education{
-    background: url('images/background-dark.jpg') no-repeat center center fixed ;
-    background-size: cover;
-  }
-  section#contact {
-    background: url('images/background-dark.jpg') no-repeat center center fixed ;
-    background-size: cover;
-  }
-  section#experience{
-    background: url('images/background-dark.jpg') no-repeat center center fixed ;
-  }
+ 
+  
   button#animation-button {
    position: absolute;
     top: 0;
@@ -244,7 +230,7 @@ li{
     height: 50px;
     z-index:300;
     width:100%;
-    background: url('images/background-dark.jpg') no-repeat center center fixed ;
+    background: url('images/background-dark.png') no-repeat center center fixed ;
   background-size: cover;
 
   z-index: 500;
@@ -474,7 +460,7 @@ li{
   footer {
     padding: 10px;
     color: #ffffff;
-    background: url('images/background-50.jpg') no-repeat center center fixed ;
+    background: url('images/background-50.png') no-repeat center center fixed ;
   background-size: cover;
   }
   
