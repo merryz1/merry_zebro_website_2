@@ -139,7 +139,7 @@ li{
   section#home{
     border:none;
     height: 100vh;
-    background:  url('images/background-50.pjg') no-repeat center center fixed ;
+    background:  url('images/background-50.jpg') no-repeat center center fixed ;
     background-size: cover;
   
   }
