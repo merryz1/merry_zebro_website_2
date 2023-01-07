@@ -23,12 +23,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Comic Neue', sans-serif;
-    background-size: cover;
     background: url('images/background-dark.jpg') no-repeat center center fixed ;
     background-size: cover;
   
     
   }
+
+ 
 
 
 
@@ -69,6 +70,9 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url('images/background-dark.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    
 
     
   }
@@ -470,7 +474,7 @@ li{
   footer {
     padding: 10px;
     color: #ffffff;
-    background: url('images/background.jpg') no-repeat center center fixed ;
+    background: url('images/background-50.jpg') no-repeat center center fixed ;
   background-size: cover;
   }
   
