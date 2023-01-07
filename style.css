@@ -24,7 +24,7 @@ body {
     padding: 0;
     font-family: 'Comic Neue', sans-serif;
     background-size: cover;
-    background: url('images/background-dark.png') no-repeat center center fixed ;
+    background: url('images/background-dark.jpg') no-repeat center center fixed ;
     background-size: cover;
   
     
@@ -139,30 +139,30 @@ li{
   section#home{
     border:none;
     height: 100vh;
-    background:  url('images/background-50.png') no-repeat center center fixed ;
+    background:  url('images/background-50.pjg') no-repeat center center fixed ;
     background-size: cover;
   
   }
 
   section#projects{
-    background: url('images/background-50.png') no-repeat center center fixed ;
+    background: url('images/background-50.jpg') no-repeat center center fixed ;
     background-size: cover;
   }
   section#skills{
-    background: url('images/background-50.png') no-repeat center center fixed ;
+    background: url('images/background-50.jpg') no-repeat center center fixed ;
     background-size: cover;
   }
 
   section#education{
-    background: url('images/background-dark.png') no-repeat center center fixed ;
+    background: url('images/background-dark.jpg') no-repeat center center fixed ;
     background-size: cover;
   }
   section#contact {
-    background: url('images/background-dark.png') no-repeat center center fixed ;
+    background: url('images/background-dark.jpg') no-repeat center center fixed ;
     background-size: cover;
   }
   section#experience{
-    background: url('images/background-dark.png') no-repeat center center fixed ;
+    background: url('images/background-dark.jpg') no-repeat center center fixed ;
   }
   button#animation-button {
    position: absolute;
@@ -240,7 +240,7 @@ li{
     height: 50px;
     z-index:300;
     width:100%;
-    background: url('images/background-dark.png') no-repeat center center fixed ;
+    background: url('images/background-dark.jpg') no-repeat center center fixed ;
   background-size: cover;
 
   z-index: 500;
